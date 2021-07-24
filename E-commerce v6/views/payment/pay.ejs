@@ -1,0 +1,60 @@
+<%- include('../partials/header') %> 
+<%- include('../partials/navbar') %> 
+
+
+<div class="container mt-4 ">
+  <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 mx-auto "style="margin-top:50px" >
+          <form class="needs-validation" action="#" method="POST" novalidate>
+            <h6 class="display-6">Add Your Payment Info</h6>
+            <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  
+                </div>
+                
+                
+                
+                <div class="mb-3">
+                  <label for="card" class="form-label">Card Number</label>
+                  <input type="number" class="form-control" id="price" placeholder="Enter Your 12 digit card number" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  
+                </div>
+
+                <div class="mb-3">
+                  <label for="date" class="form-label">Expiry Date</label>
+                  <input type="date" class="form-control" id="price" placeholder="Enter Your 12 digit card number" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  
+                </div>
+                
+                <div class="mb-3">
+                  <label for="address" class="form-label">Address</label>
+                  <textarea id="address" class="form-control" cols="30" rows="5" name="address"required></textarea>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  
+                </div>
+                
+                <div class="mb-3 text-center">
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+              </form> 
+              
+              
+    </div>
+    
+</div>
+
+
+
+<%- include('../partials/footer') %> 
